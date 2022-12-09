@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <script src="https://kit.fontawesome.com/e784ec330c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=El+Messiri&family=Open+Sans:wght@300&family=Syne+Mono&family=Unna&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="whatsapp-button" id="whatsapp" title="Send on Whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </button>
+            <button id="new-quote" title="Click me!">New Quote</button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+    <!-- Script -->
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
